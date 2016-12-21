@@ -246,6 +246,7 @@ li {
     top: 0;
     z-index: -99;
     overflow: hidden;
+    max-height: 85vh;
 }
 
 .main-image:after {
@@ -266,8 +267,7 @@ li {
 .main-image video{ 
     position: absolute; 
     right: 0;
-    min-width: 100%; 
-    width: 100%;
+    max-height: 85vh;
     z-index: -100;
     background-size: cover;
     background-position: center center;
